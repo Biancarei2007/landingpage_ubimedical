@@ -1273,3 +1273,80 @@ section {
   max-height: 200px; /* Define a altura máxima */
   object-fit: cover; /* Corta a imagem se necessário para preencher o contêiner */
 }
+
+/* Centraliza o conteúdo verticalmente */
+.align-items-center {
+  align-items: center;
+}
+
+/* Ajusta o estilo do botão */
+.btn-outline-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-white:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Ajusta o tamanho máximo da imagem */
+.stack-back {
+  max-width: 80%; /* Ajuste este valor conforme necessário */
+  height: auto;   /* Mantém a proporção da imagem */
+}
+
+.btn-outline-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-white:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Estilizando a seção Stats */
+.stats {
+  position: relative;
+  padding: 120px 0;
+  background-color: transparent; /* Certifique-se de que o fundo seja transparente */
+  border: none; /* Remova qualquer borda que possa estar presente */
+}
+
+.stats img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  border: none; /* Remova qualquer borda da imagem */
+}
+
+.stats .container {
+  position: relative;
+  z-index: 3;
+}
+
+.stats .stats-item {
+  padding: 30px;
+  width: 100%;
+}
+
+.stats .stats-item span {
+  font-size: 48px;
+  display: block;
+  color: var(--default-color);
+  font-weight: 700;
+}
+
+.stats .stats-item p {
+  padding: 0;
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 16px;
+  font-weight: 700;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
